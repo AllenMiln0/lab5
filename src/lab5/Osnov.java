@@ -1,6 +1,7 @@
 package lab5;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Osnov {
 	private int k;
@@ -24,7 +25,7 @@ public class Osnov {
 		else return false;
 	}
 	
-	public void Init(int l, int a, int b) {
+	public void Init(int l, double a, double b) {
 		k = l;
 		k1.Init(a, b);
 		k2.Init(a, b);

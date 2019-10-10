@@ -1,13 +1,14 @@
 package lab5;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Koef {
 	
 		private	double p;
 		private	double q;
 		
-		public void Init(int a, int b) {
+		public void Init(double a, double b) {
 			p = a;
 			q = b;
 		}
